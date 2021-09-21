@@ -10,9 +10,8 @@ const router = createRouter({
     { path: "/", component: AlbumsList },
     {
       path: "/albums/:id/photos",
-      name: "albums",
+      name: "photos",
       component: Photos,
-      photos: "photos",
     },
   ],
 });
