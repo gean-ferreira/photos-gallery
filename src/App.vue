@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: "Photos gallery app"
+  name: "Photos gallery"
 }
 </script>
 
