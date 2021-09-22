@@ -38,7 +38,19 @@ export default {
 </script>
 
 <style>
-  .div-albums{
-    cursor: pointer;
-  }
+  h1{
+      margin: 1rem
+    }
+   .div-albums{
+     width: 450px;
+     margin-left: 1.5rem;
+     margin-bottom: 0.5rem;
+     border: solid 1px black;
+     border-radius: 20px;
+     padding: 0.5rem;
+     cursor: pointer;
+   }
+   .div-albums:hover{
+     background: lightseagreen;
+   }
 </style>
